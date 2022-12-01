@@ -1,0 +1,92 @@
+
+{"menu" : [ 
+    {"appetizers" : [
+        {
+            "name" : "chili fries", 
+            "ingredients" : "potatoes, chili sauce",
+            "description" : "fresh cut potatoes fried until crispy smoothered in chili"
+        },
+        {
+            "name" : "onion fritters",
+            "ingredients" : "fritter batter, diced sweet onions",
+            "description" : "onions mixed in a cornmeal fritter batter the fried to perfection"
+        },
+        {
+            "name" : "buffalo wings",
+            "ingredtients" : "chicken wings, buffalo sauce",
+            "description" : "deep fried chicken wings smoothered in a buffalo sauce"
+        }
+    ]},
+
+    {"cold sandwiches" : [
+        {
+            "name" : "ham and cheese",
+            "ingredients" : "hoagie Bun, sliced ham, lettuce, tomato, mayonaise, mustard, cheddar cheese",
+            "description" : "sliced ham laid on a hoagie bun with cheddar cheese and fixings"
+        },
+        {
+            "name" : "chicken bacon ranch",
+            "ingredients" : "hoagie bun, sliced chicken, Bacon strips, Pepperjack cheese, Ranch",
+            "description" : "pan fried chicken then cooled with 2 slices of bacon laid on a hoagie bun covered with cheese and ranch dressing"
+        },
+        {
+            "name" : "",
+            "ingredients" : "",
+            "description" : ""
+        }
+    ]},
+    {"hot sandwiches": [
+        {
+            "name" : "meatball",
+            "ingredients" : "",
+            "description" : ""
+        },
+        {
+            "name" : "bbq pulled pork",
+            "ingredients" : "",
+            "description" : ""
+        },
+        {
+            "name" : "roast beef",
+            "ingredients" : "",
+            "description" : ""
+        }
+    ]},
+    {"desserts" : [
+        {
+            "name" : "strawberry cheesecake",
+            "ingredients" : "cheesecake, fresh strawberries",
+            "description" : "philly style cheesecake topped with fresh strawberries"
+        },
+        {
+            "name" : "chocolate cake",
+            "ingredients" : "cocoa, cake flour, eggs, sugar, icing",
+            "description" : "double chocolate cake topped with a buttercream frosting"
+        },
+        {
+            "name" : "banana pudding pie",
+            "ingredients" : "graham cracker crust, bananas, pudding mix, whipped topping",
+            "description" : "a graham cracker crsut filled with sliced bananas and banana pudding topped with whipped cream"
+        }
+    ]},
+    {"drinks" : [
+        {
+            "name" : "milkShake",
+            "ingredients" : "icecream, milk, flavoring",
+            "description" : "icecream blended smnooth with milk and choice of flavoring"
+        },
+        {
+            "name" : "soda",
+            "ingredients" : "sugar syrup, soda water",
+            "description" : "choice of soft drinks poured over ice"
+        },
+        {
+            "name" : "icedtea",
+            "ingredients" : "black tea(sun brewed), ice",
+            "description" : "sun brewed tea served over ice"
+        }
+    ]}
+]}
+
+
+
