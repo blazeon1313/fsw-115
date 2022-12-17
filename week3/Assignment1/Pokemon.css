@@ -1,0 +1,22 @@
+body{
+    background-color: firebrick;
+}
+
+h1{
+    text-decoration: underline;
+    text-align: center;
+    color: cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+div {
+    color: honeydew;
+    text-transform: capitalize;
+    text-indent: 25px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 4px;
+
+}
