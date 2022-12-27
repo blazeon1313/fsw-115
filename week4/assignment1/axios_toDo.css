@@ -1,0 +1,23 @@
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: blue;
+    font-size: 40px;
+    padding: 40px;
+    margin: 10px;
+}
+
+div {
+    text-align: center;
+    font-size: larger;
+    color: black;
+    padding: 10px;
+}
+
+body {
+    background-image: url("/Post_it_note.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    margin: 10px;
+}
