@@ -14,10 +14,10 @@ axios.get("http://api.bryanuniversity.edu/kristofferkrueger/list")
             toDo.textContent = response.data[i].description;
             document.body.appendChild(toDo);
 
-            if (response.data[i].isComplete === true){
+            toDo.addEventListener('click', function(){
                 toDo.style.textDecoration = "line-through"
-            }
+            })               
         }
-
     })
+
     .catch(error => console.log(error))
