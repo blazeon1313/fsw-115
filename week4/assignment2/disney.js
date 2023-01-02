@@ -8,6 +8,9 @@ function runs(){
             const cartoon = document.createElement("li")
             cartoon.textContent = results.data.data[i].name;
             document.body.appendChild(cartoon);
+            cartoon.addEventListener("click", function(){
+                cartoon.style.textDecoration = "line-through"
+            })
         }
     })
     .catch(error => console.log(error));

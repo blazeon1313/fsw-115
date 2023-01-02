@@ -8,8 +8,10 @@ function scores(){
             const house = document.createElement("li")
             house.textContent = results.data[i].name;
             document.body.appendChild(house);
+            house.addEventListener("click", function(){
+                house.style.textDecoration = "line-through";
+            })
         }
     })
     .catch(error => console.log(error));
 }
-
