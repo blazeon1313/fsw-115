@@ -1,0 +1,62 @@
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+#navbar{
+    grid-area: navbar;
+    grid-column: 1 /4;
+    grid-row: 2 / 3;
+    width: auto;
+    border: 2px solid black;
+    display: flexbox;
+    flex-direction: row;
+}
+
+nav a{
+    background-color: gray;
+    color: blue;
+    text-decoration: none;
+    text-align: center;
+}
+nav a:hover{
+    text-decoration: underline;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    justify-content: space-evenly;
+    background-color: gray;
+}
+.flex-container > a{
+    padding: 5px;
+    justify-content: center;
+    display: inline-block;
+    text-align: center;    
+}
+
+*{
+   background-color: darkcyan; 
+}
+
+button {
+    display: grid;
+    margin: auto;
+    background-color: green;
+    padding: 11px;
+}
+
+button:hover {
+    background-color: coral;
+}
+
+li {
+    color: chartreuse;
+    list-style-type: none;
+    text-align: center;
+    padding: 5px;
+}
