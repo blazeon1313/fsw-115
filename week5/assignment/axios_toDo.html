@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>To Do List</title>
+        <link rel="stylesheet" href="axios_toDo.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="flexbox">
+                <form id="listForm" name="todoForm">
+                        <h1>Fill Form</h1>
+                        <div class="inputGroup">
+                            <label for="name">Name:</label><br>
+                            <input type="text" id="name" placeholder="Your Name"/><br>
+                        </div>   
+                        <div class="inputGroup">
+                            <label for="price">Price:</label><br>   
+                            <input type="number" id="price" placeholder="Price"/><br>
+                        </div>    
+                        <div class="inputGroup">
+                            <label for="description">Description:</label><br>
+                            <input type="text" id="description" placeholder="Type Here"/>
+                        </div>
+                        <button>Submit</button>
+                </form>
+            </div>
+            <div class="listContainer">
+                <h1>To Do</h1>
+                <div id="doList"></div>
+            </div>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.16.0/axios.js"></script>
+        <script src="axios_toDo.js"></script>
+    </body>
+
+
+</html>
