@@ -1,0 +1,87 @@
+body {
+    background-color: dimgray;
+}
+
+#header {
+    grid-area: header;
+    background-image: url("/images/logo.png");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 200px;
+    width: 100%;
+}
+
+#name {
+    grid-area: name;
+    height: 150px;
+    width: 200px;
+    text-align: center;
+    color: cyan;
+    padding: 10px;
+    margin: 5px;
+}
+
+
+#name:hover {
+    color: gold;
+    font-size: 40px;
+    text-align: left;
+    font-style: italic;
+    background-image: url("/images/vader.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 200px;
+    width: 100%;
+    transition:ease-in 2s, ease-out 2s;
+}
+
+#home {
+    grid-area: home;
+    height: 150px;
+    width: 200px;
+    text-align: center;
+    color: cyan;
+    padding: 10px;
+    margin: 5px;
+}
+
+#home:hover {
+    color: gold;
+    font-size: 40px;
+    text-align: left;
+    font-style: italic;
+    background-image: url("/images/planet.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 200px;
+    width: 100%;
+    transition:ease-in-out 2s;
+}
+
+#ship {
+    grid-area: ship;
+    height: 150px;
+    width: 200px;
+    text-align: center;
+    color: cyan;
+    padding: 10px;
+    margin: 5px;
+}
+
+#ship:hover {
+    color: gold;
+    font-size: 30px;
+    text-align: left;
+    font-style: italic;
+    background-image: url("/images/starship.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    height: 200px;
+    width: 100%;
+    transition:ease-in-out 2s;
+}
+
+audio {
+    grid-area: audio;
+    margin: 10px;
+}
