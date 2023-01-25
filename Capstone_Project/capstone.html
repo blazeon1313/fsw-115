@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="capstone.css">
+        <title>Capstone Project</title> 
+    </head> 
+    <body>
+        <div id="header"></div>
+        <div class="grid-container">
+            <audio controls>
+                <source src="https://ia800801.us.archive.org/11/items/TheImperialMarch/The-Imperial-March.mp3">
+            </audio>
+            <div id="main" class="mainWrapper">
+                <div id="name"></div>
+                <div id="home"></div>
+                <div id="ship"></div>
+            </div> 
+            <div class='queryWrapper'>
+                <div class="dataInput">
+                    <div class="querySelect">
+                        <div id="info">Additional Information:</div>
+                        <select id='queryType'>
+                            <option>Please Select</option>
+                            <option value='people/4/'>Darth Vader</option>
+                            <option value='planets/1/'>Tatooine</option>
+                            <option value='starships/13/'>Tie Advanced x1</option>
+                        </select>
+                        <button id='fetchButton' onclick="fetchData()">Go</button>
+                        <div id='ResponseData' class='dataWrapper'>
+                            <div class='cellLabel' id='dataLabel1'></div>
+                            <div class='cell' id='dataValue1'></div>
+                            <div class='cellLabel' id='dataLabel2'></div>
+                            <div class='cell' id='dataValue2'></div>
+                            <div class='cellLabel' id='dataLabel3'></div>
+                            <div class='cell' id='dataValue3'></div>
+                            <div class='cellLabel' id='dataLabel4'></div>
+                            <div class='cell' id='dataValue4'></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="container">
+            <div class="flexbox">
+                <form id="listForm" name="todoForm">
+                        <h1>Fill Form</h1>
+                        <div class="inputGroup">
+                            <label for="yourName">Name:</label><br>
+                            <input type="text" id="yourName" placeholder="Your Name"/><br>
+                        </div>   
+                        <div class="inputGroup">
+                            <label for="price">Price:</label><br>   
+                            <input type="number" id="price" placeholder="Whole Dollar Amount"/><br>
+                        </div>    
+                        <div class="inputGroup">
+                            <label for="description">Description:</label><br>
+                            <input type="text" id="description" placeholder="Type Here" required/>
+                        </div>
+                        <button>Submit</button>
+                </form>
+            </div>
+            <div class="listContainer">
+                <h1>To Do</h1>
+                <div id="doList"></div>
+            </div>
+        </div>
+        <div id="footer">
+            <a id="link" href='https://swapi.dev/api/' target='_new'>Data brought to you by Star Wars API</a>
+        </div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.0/axios.min.js"></script>
+        <script src="capstone.js"></script>
+    </body>
+</html>
